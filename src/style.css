@@ -1,0 +1,44 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.router-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+  border: 1px solid gray;
+  padding: 8px 24px;
+}
+
+.page-route {
+  width: 100%;
+  height: 80vh;
+}
+
+.one,
+.one-link {
+  background-color: palegoldenrod;
+}
+
+.two,
+.two-link {
+  background-color: palegreen;
+}
+
+.three,
+.three-link {
+  background-color: palevioletred;
+}
